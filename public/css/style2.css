@@ -1,0 +1,233 @@
+/* php */
+
+*{
+   font-family: 'Poppins', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+}
+
+.container{
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:20px;
+}
+
+.container2{
+   padding-top: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+
+.container2 .content h1 span{
+   color: #86AB9B;;
+}
+
+.container2 .content p{
+   font-size: 25px;
+   margin-bottom: 20px;
+}
+
+.container2 .content .btn{
+   display: block;
+   text-align: center;
+   padding:10px 30px;
+   font-size: 15px;
+   background: #86AB9B;
+   color:#fff;
+   margin:0 5px;
+   text-transform: capitalize;
+}
+
+.container2 .content .btn:hover{
+   background:  #86AB9B;;
+}
+
+.container3{
+   overflow-x:auto;
+   text-align: center;
+   justify-content: center;
+   padding-top: 50px;
+}
+
+table {
+   background-color: white;
+   margin-left: auto;
+   margin-right: auto;
+   width: 800px;
+   border-collapse: collapse;
+   overflow: hidden;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+   padding: 15px;
+   background-color: rgba(255, 255, 255, 0.2);
+   color: black;
+}
+
+th {
+   text-align: left;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+thead th {
+   text-align: center;
+   background-color: #86AB9B;
+}
+
+tr:hover {
+   background-color: rgba(255, 255, 255, 0.3);
+}
+
+td:hover {
+   position: relative;
+}
+
+td:hover:before {
+   content: "";
+   position: absolute;
+   left: 0;
+   right: 0;
+   top: -9999px;
+   bottom: -9999px;
+   background-color: rgba(255, 255, 255, 0.2);
+   z-index: -1;
+}
+
+a {
+   text-decoration: none;
+   color: #5f2c82;
+}
+
+@media (max-width: 991px) {
+   table {
+      width: 750px;
+   }
+}
+
+.container .content{
+   text-align: center;
+}
+
+.container .content h3{
+   font-size: 30px;
+   color:#333;
+}
+
+.container .content h3 span{
+   background:  #86AB9B;;
+   color:#fff;
+   border-radius: 5px;
+   padding:0 15px;
+}
+
+.container .content h1{
+   font-size: 50px;
+   color:#333;
+}
+
+.container .content h1 span{
+   color: #86AB9B;
+}
+
+.container .content p{
+   font-size: 25px;
+   margin-bottom: 20px;
+}
+
+.container .content .btn{
+   display: inline-block;
+   padding:10px 30px;
+   font-size: 20px;
+   background: #333;
+   color:#fff;
+   margin:0 5px;
+   text-transform: capitalize;
+}
+
+.container .content .btn:hover{
+   background:  #86AB9B;;
+}
+
+.form-container{
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:20px;
+   padding-bottom: 60px;
+   background: #eee;
+}
+
+.form-container form{
+   padding:20px;
+   border-radius: 5px;
+   box-shadow: 0 5px 10px rgba(0,0,0,.1);
+   background: #fff;
+   text-align: center;
+   width: 500px;
+}
+
+.form-container form h3{
+   font-size: 30px;
+   text-transform: uppercase;
+   margin-bottom: 10px;
+   color:#333;
+}
+
+.form-container form input,.form-container form select{
+   width: 100%;
+   padding:10px 15px;
+   font-size: 17px;
+   margin:8px 0;
+   background: #eee;
+   border-radius: 5px;
+}
+
+.form-container form select option{
+   background: #fff;
+}
+
+.form-container form .form-btn{
+   background: #86AB9B;
+   color: #fff;;
+   text-transform: capitalize;
+   font-size: 20px;
+   cursor: pointer;
+}
+
+.form-container form .form-btn:hover{
+   background:  #42dc66;;
+   color:#fff;
+}
+
+.form-container form p{
+   margin-top: 10px;
+   font-size: 20px;
+   color:#333;
+}
+
+.form-container form p a{
+   color: #86AB9B;;
+}
+
+.form-container form .error-msg{
+   margin:10px 0;
+   display: block;
+   background:  red;
+   color:#fff;
+   border-radius: 5px;
+   font-size: 20px;
+   padding:10px;
+}
+
+.title{
+   color: black;
+}

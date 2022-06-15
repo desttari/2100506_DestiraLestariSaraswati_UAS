@@ -1,0 +1,139 @@
+
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Welcome to Emily Travel Agency!</title>
+    <link rel="icon" type="image/x-icon" href="assets/image/Emily Travel Agency.png">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
+     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark p-md-3 ">
+      <div class="container">
+        <a class="navbar-brand navfont" href="#">Emily T ' A</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse " id="navbarNav">
+          <div class="mx-auto"></div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white fs-7" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fs-7" href="destinations.html">Destinations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fs-7" href="Contact.php">Contact Us</a>
+            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Join Us
+            </a>
+            <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="login_form.php">Log in</a></li>
+                <li><a class="dropdown-item" href="Jobs.html">Career</a></li>
+                <li><a class="dropdown-item" href="login_form.php">Admin</a></li>
+            </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<!-- SERVICES -->
+    <section class="sec3" id="services">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-8 mx-auto text-center">
+                    <h1>Let's Be Part Our Family!</h1>
+                    <p>Available Positions  | If you interested let me know with send us massage at Contact Us Page</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service card-effect bounceInUp">
+                        <div class="iconbox">
+                            <i class='bx bxs-user-voice'></i>
+                        </div>
+                        <h5 class="mt-4 mb-2">Customer Service</h5>
+                        <p>We need full time worker as Costumer Service</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service card-effect">
+                        <div class="iconbox">
+                            <i class='bx bxs-camera'></i>
+                        </div>
+                        <h5 class="mt-4 mb-2">Photographer</h5>
+                        <p>We need part time worker as Photographer</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service card-effect">
+                        <div class="iconbox">
+                            <i class='bx bxs-flag-alt'></i>
+                        </div>
+                        <h5 class="mt-4 mb-2">Local Guide</h5>
+                        <p>We need part time worker as Local Guide</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service card-effect">
+                        <div class="iconbox">
+                             <i class='bx bxs-briefcase-alt'></i>
+                        </div>
+                        <h5 class="mt-4 mb-2">Porter</h5>
+                        <p>We need part time worker as Porter</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service card-effect">
+                        <div class="iconbox">
+                           <i class='bx bxs-car'></i>
+                        </div>
+                        <h5 class="mt-4 mb-2">Driver</h5>
+                        <p>We need part time worker as Driver</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service card-effect">
+                        <div class="iconbox">
+                           <i class='bx bx-globe'></i>
+                        </div>
+                        <h5 class="mt-4 mb-2">Admin</h5>
+                        <p>We need full time worker as Admin</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- SERVICES -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+      var nav = document.querySelector('nav');
+
+      window.addEventListener('scroll', function () {
+        if (window.pageYOffset > 100) {
+          nav.classList.add('bg-dark', 'shadow');
+        } else {
+          nav.classList.remove('bg-dark', 'shadow');
+        }
+      });
+    </script>
+</body>
+</html>
